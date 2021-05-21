@@ -1,0 +1,50 @@
+
+body {
+  background: url("img/background.jpg") no-repeat;
+  background-size: 100% 100%;
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  background-color: rgb(4, 72, 104);
+  color: #fff;
+  padding: 25px;
+  margin-bottom: 20px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar h3 {
+  margin: 0;
+  display: inline;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  float: right;
+}
+
+.navbar ul li {
+  display: inline; /* Отображать как строчный элемент */
+  margin-right: 15px; /* Отступ слева */
+  padding: 3px; /* Поля вокруг текста */
+}
+
+.content {
+  width: 1200px;
+  background-color: #fff;
+  border-radius: 25px;
+  padding: 25px;
+  margin: 20px auto;
+  display: flex;
+}
+
+footer {
+  width: 100%;
+  min-height: 20px;
+  background-color: #fff;
+}
